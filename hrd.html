@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Kinerja</title>
+    <link rel="stylesheet" href="layout.css">
+</head>
+<body>
+    <div class="opacity">
+    <div class="atas">
+        <div class="container">PT. IKSIR PLAZA COMPANY</div>
+    </div>
+    <h1>Sistem Monitoring Kinerja Karyawan</h1>
+    <br>
+        
+        <form action="proses-hrd.php" method="post">
+            <table>
+                <tr>
+                    <td>Nama Karyawan</td>
+                    <td><input type="text" name="nama" maxlength="30" size="50"><br><br></td>
+                </tr>
+               
+                <tr>
+                    <td>Level</td>
+                    <td><select name="level">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Peringkat</td>
+                    <td><select name="peringkat">
+                        <option>Bronze</option>
+                        <option>Silver</option>
+                        <option>Gold</option>
+                        <option>Platinum</option>
+                    </select></td>
+                </tr>
+            </table><br>
+
+            
+            <div class='button-container'>
+                <input type="submit" value="SIMPAN" class="tombol">
+            </div>
+        </form>
+</body>
+</html>

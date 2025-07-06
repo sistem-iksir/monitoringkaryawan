@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Input Kinerja</title>
+  <link rel="stylesheet" href="layout.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+
+    .opacity {
+      background-image: url('back.jpg');
+      background-size: cover;
+      background-position: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+
+    .container{
+        font-size: 35px;
+    }
+
+    .sambut {
+      text-align: center;
+      font-size: 50px;
+      font-weight: 700;
+      color: white;
+      margin-top: 40px;
+      animation: glow 1.5s ease-in-out infinite alternate, bounce 2s ease-in-out infinite;
+    }
+
+    h1 {
+      text-align: center;
+      color: white;
+      font-size: 40px;
+      margin-top: 20px;
+      animation: fadeInUp 1.5s ease-in-out;
+    }
+
+    .button-start {
+      display: block;
+      margin: 20px auto;
+      padding: 12px 30px;
+      font-size: 16px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      animation: fadeInUp 2s ease-in-out;
+    }
+
+    .button-start:hover {
+      background-color: #218838;
+    }
+
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 10px #fff, 0 0 15px #00f0ff, 0 0 25px #00f0ff;
+      }
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #00f0ff, 0 0 40px #00f0ff;
+      }
+    }
+
+    @keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    @keyframes fadeInUp {
+      0% {
+        transform: translateY(30px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="opacity">
+    <div class="atas">
+      <div class="container">PT. IKSIR PLAZA COMPANY</div>
+    </div>
+
+    <div class="sambut">Welcome to</div><br>
+    <h1>Sistem Monitoring Kinerja Karyawan </h1><br>
+
+    <a href="login.html">
+      <button class="button-start">Login</button>
+    </a>
+    <a href="berkas-manajer.php">
+      <button class="button-start">Lihat Catatan</button>
+    </a><br>
+    <h3>"Integritas dalam Setiap Langkah, Amanah dalam Setiap Tugas."</h3>
+  </div>
+</body>
+</html>

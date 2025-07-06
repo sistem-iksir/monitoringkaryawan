@@ -1,0 +1,146 @@
+.opacity{
+    background-repeat: no-repeat;
+    background-image: url(back.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&family=Gloria+Hallelujah&family=Indie+Flower&family=Jaro:opsz@6..72&family=Love+Ya+Like+A+Sister&family=Poppins:wght@400;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-family:"Roboto Mono", monospace;
+    font-size: 35px;
+}
+table{
+    align-items: center;
+    width: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 3);
+    margin: 20px auto;
+    margin-top: 30px;
+}
+td{
+    padding: 7px;
+    text-shadow: 1px;
+    text-align: left;
+    color: yellow;
+    text-shadow: 2px 2px 2px black;
+    font-size: 15px;
+    font-weight: bolder;
+    border-bottom: 1px solid darkblue;
+
+}
+tr{
+    color:#ffff;
+    padding: 10px;
+
+}
+.button-container{
+    display: flex; 
+    justify-content: center;
+}
+.tombol{
+    display: inline-block; 
+    padding: 0.5em 3em; 
+    border-radius: 15px;
+    border: none;
+    border: none;
+    background-color: royalblue;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.tombol:hover{
+    background-color:darkblue ;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.atas{
+    padding: 5px 0;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: yellow;
+    text-shadow: 1px 1px 0.5px blue;
+}
+body, html {
+    height: 100%; 
+    margin: 0; 
+}
+.container {
+    display: flex;
+    justify-content: center; 
+    width: 70%;
+    align-items: center; 
+    margin: auto;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&family=Gloria+Hallelujah&family=Indie+Flower&family=Jaro:opsz@6..72&family=Love+Ya+Like+A+Sister&display=swap');
+.hp1 { 
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;              
+    color:black;
+    font-size: 40px;
+    text-align: center; 
+    text-shadow: 1px 1px 2.5px yellow;
+    margin-top: 50px;
+}
+
+.hp2{
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Dawning of a New Day", cursive;
+}
+
+.hp3{
+    text-align: center;
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace; 
+    color: aqua ;
+    text-shadow: 1px 1px 2.5px aqua;
+    border: 3px dashed aqua;
+    align-items: center;
+    width: 70%;
+    display: block;
+    background: rgb(15, 15, 21);
+    margin: 20px auto;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+}
+.kotakhp{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 3);
+    padding-bottom: 30px;
+    margin: 50px auto;
+}
+p{
+    border: 3px dashed whitesmoke;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: chartreuse;
+    margin-top: 50px;
+    border: 1px;
+    margin: 5% auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 3);
+    width: 30%;
+    padding: bottom 7% top 7%;
+    background-color: black;  
+}
+.sambut{
+    text-align: center;
+    color:blanchedalmond;
+}
+h3{
+    text-align: center;
+    color: greenyellow;
+    font-family:monospace;
+    font-size: 15px;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Sistem Monitoring</title>
+    <link rel="stylesheet" href="layout.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        .kotak-login {
+            background-color: rgba(0,0,0,0.6);
+            width: 90%;
+            max-width: 400px;
+            margin: 30px auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.3);
+        }
+
+        .kotak-login h2 {
+            text-align: center;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .form-input {
+            margin-bottom: 15px;
+        }
+
+        .form-input label {
+            color: white;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-input input,
+        .form-input select {
+            width: 100%;
+            padding: 8px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .button-container {
+            text-align: center;
+        }
+
+        .tombol {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .tombol:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="opacity">
+        <div class="atas">
+            <div class="container">PT. IKSIR PLAZA COMPANY</div>
+        </div>
+
+        <h1 style="text-align: center; color: white;">Sistem Monitoring Kinerja Karyawan</h1>
+
+        <div class="kotak-login" style="width: 300px;">
+            <form method="post" action="login.php">
+                <h2>Login</h2>
+
+                <div class="form-input">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" required>
+                </div>
+
+                <div class="form-input">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+
+                <div class="form-input">
+                    <label for="jabatan">Jabatan</label>
+                    <select name="jabatan" id="jabatan" required>
+                        <option value="">-- Pilih Jabatan --</option>
+                        <option value="karyawan">Karyawan</option>
+                        <option value="hrd">HRD</option>
+                        <option value="manajer">Manajer</option>
+                    </select>
+                </div>
+
+                <div class="button-container">
+                    <button type="submit" class="tombol">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Kinerja</title>
+    <link rel="stylesheet" href="layout.css">
+</head>
+<body>
+    <div class="opacity">
+    <div class="atas">
+        <div class="container">PT. IKSIR PLAZA COMPANY</div>
+    </div>
+    <h1>Sistem Monitoring Kinerja Karyawan</h1>
+    <br>
+        
+        <form action="input-kerja2.php" method="post">
+            <table>
+                <tr>
+                    <td>Nama Karyawan</td>
+                    <td><input type="text" name="nama" maxlength="30" size="50"><br><br></td>
+                </tr>
+                <tr>
+                    <td>ID Karyawan</td>
+                    <td><input type="text" name="id" size="50"></td>
+                </tr>
+                <tr>
+                    <td>Cabang Kantor</td>
+                    <td><select name="cabang">
+                        <option>Banyuwangi</option>
+                        <option>Bondowoso</option>
+                        <option>Situbondo</option>
+                        <option>Jember</option>
+                        <option>Probolinggo</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Deadline</td>
+                    <td><input type="date" name="deadline"></td>
+                </tr>
+                <tr>
+                    <td>Complete</td>
+                    <td><input type="date" name="complete"></td>
+                </tr>
+                <tr>
+                    <td>Status</td>
+                    <td><select name="status">
+                        <option>Sudah PO</option>
+                        <option>Belum PO</option>
+                    </select></td>
+                </tr>
+                
+            </table><br>
+
+            
+            <div class='button-container'>
+                <input type="submit" value="SIMPAN" class="tombol">
+            </div>
+        </form>
+</body>
+</html>
